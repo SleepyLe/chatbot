@@ -370,7 +370,7 @@ def chatbot_commands(cmd: str) -> bool:
 # )
 # args = parser.parse_args()
 # Initialize chatbot
-chatbot = Chatbot(api_key='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')
+chatbot = Chatbot(api_key='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')
 # Start chat
 def get_text(text):
     response = chatbot.ask(text)
